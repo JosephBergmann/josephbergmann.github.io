@@ -1,0 +1,43 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Background \tThe World’s many languages are not static. They change from generation to generation for a variety of reasons; and rarely in two places do they change in the same way. After many generations, two groups of people who previously spoke the same language may be unable to understand each other, and in this way one language becomes many. Modern linguistics views languages as connected through these genetic links. Through the comparative method, ancestor languages that are poorly attested, but known to have existed, have been reconstructed by linguists. Now, languages can be taxonified based on their ancestors similar to animals. \tThe purpose of this website is to act as an interactive family tree for languages. This website will also attempt to give the user a sense of how many people speak the languages within a given family through use of a treemap. Finally, this website hopes to be able to provide the user basic information about each language or family.",
+  "main": "test.js",
+
+  "browserslist": [
+    "defaults"
+  ],
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephBergmann/js-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephBergmann/js-project/issues"
+  },
+  "homepage": "https://github.com/JosephBergmann/js-project#readme",
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.27.1",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.2",
+    "regenerator-runtime": "^0.13.11",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+
+  }
+}
+
