@@ -25,7 +25,7 @@ Upon loading this website, users will be able to:
 
 
 Wireframes
-
+https://docs.google.com/document/d/1GQBrHp0dt_LOMwh1u7tvCZgQxoYXwUxXDJ-XywgtEAc/edit?usp=sharing
 
 The search bar will allow the user to select an individual language or family, both within or without the current family.
 The descendants will appear in the treemap sized based on their number of speakers.
