@@ -64,7 +64,7 @@ $.ajax({
   dataType: "json",
   success: function (data) {
       var families = data.query.categorymembers;
-      for (let i = 0; i < families.length; i++) {
+      for (let i = 5; i < families.length; i++) {
           let family = families[i];
           let newLink= $('<a>',{
             href: 'https://en.wikipedia.org/wiki/' + family.title,
@@ -78,3 +78,16 @@ $.ajax({
       console.log(xhr.responseText);
   }
 });
+
+// function childFinder(langLink){
+//   let request = require('request');
+//   let cheerio = require('cheerio');
+
+//   request(langLink, function(error, response, html)){
+//     if(!error && response.statusCode === 200) {
+//       let $ = cheerio.load(html);
+//       let childLangs = $('#mw-content-text > ul > li > a')
+//       let childLangs 
+//     }
+//   };
+// }
