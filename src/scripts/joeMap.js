@@ -9,7 +9,7 @@ const chartJoe = function () {
   let diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x)
 
   let dx = 50;
-  let dy = width / 6
+  let dy = width / 8
   let tree = d3.tree().nodeSize([dx, dy])
   const root = d3.hierarchy(sampleData.default);
 
@@ -79,7 +79,7 @@ const chartJoe = function () {
 
     nodeEnter.append("text")
       .attr("dy", "0.31em")
-      .attr('font-size', '14')
+      .attr('font-size', '10')
       .attr("x", d => d._children ? -6 : 6)
       .attr("text-anchor", d => d._children ? "end" : "start")
       .text(d => d.data.name)

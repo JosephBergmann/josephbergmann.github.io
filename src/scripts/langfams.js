@@ -1093,37 +1093,40 @@ const langFams = {
                     },
                     {
                         "name": "Iranian",
-                        "children": []
+                        "children": [
+                            {
+                                "name": "Western Iranic languages",
+                                "children": [
+                                    {
+                                        "name": "Northwestern Iranic languages",
+                                        "children": [
+                                            {
+                                                "name": "Balochi",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Caspian",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "Semnani",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name": "Nuristani",
                         "children": []
                     }
                 ]
-            },
-            {
-                "pageid": 1556966,
-                "ns": 0,
-                "name": "Indo-Hittite",
-                "children": []
-            },
-            {
-                "pageid": 3821879,
-                "ns": 0,
-                "name": "Proto-Indo-Iranian language",
-                "children": []
-            },
-            {
-                "pageid": 1899271,
-                "ns": 0,
-                "name": "Indo-Uralic languages",
-                "children": []
-            },
-            {
-                "pageid": 3402027,
-                "ns": 0,
-                "name": "Iranian languages",
-                "children": []
             },
             {
                 "pageid": 14729,
@@ -1138,51 +1141,354 @@ const langFams = {
                 "children": []
             },
             {
-                "pageid": 967506,
-                "ns": 0,
-                "name": "Kuchean language",
-                "children": []
+                "name": "Celtic languages",
+                "children": [
+                    {
+                        "name": "Celtiberian(extinct)",
+                        "children": []
+                    },
+                    {
+                            "name": "Continental Celtic(extinct)",
+                            "children": [
+                        
+                        {
+                            "name": "Lepontic",
+                            "children": []
+                        },
+                        {
+                            "name": "Gaulish",
+                            "children": []
+                        },
+                        {
+                            "name": "Hispano-celtic",
+                            "children": []
+                        },
+                        {
+                            "name": "Noric",
+                            "children": []
+                        }
+                        ]
+                    },
+                    {
+                        "name": "Insular Celtic",
+                        "children": [
+                            {
+                                "name": "Brittonic",
+                                "children": [
+                                    {
+                                        "name": "Western Brittonic",
+                                        "children": [
+                                            {
+                                                "name": "",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
-                "pageid": 58039558,
-                "ns": 0,
-                "name": "List of pidgins, creoles, mixed languages and cants based on Indo-European languages"
-            },
-            {
-                "pageid": 1683952,
-                "ns": 0,
-                "name": "Paleo-Balkan languages",
-                "children": []
-            },
-            {
-                "pageid": 226678,
-                "ns": 0,
-                "name": "Pontic languages",
-                "children": []
-            },
-            {
-                "pageid": 5287063,
-                "ns": 0,
-                "name": "Proto-Anatolian language",
-                "children": []
-            },
-            {
-                "pageid": 26757,
-                "ns": 0,
-                "name": "Slavic languages",
+                "name": "Italic languages",
                 "children": []
             },
             {
                 "pageid": 31273,
                 "ns": 0,
-                "name": "Tocharian languages",
+                "name": "Tocharian languages(extinct)",
                 "children": []
-            },
-            {
-                "pageid": 364450,
-                "ns": 0,
-                "name": "Vedic Sanskrit"
             }
+            ]
+        },
+        {
+            "name": "Sino-Tibetan",
+            "children": [
+                {
+                    "name": "Sinitic",
+                    "children": [
+                        {
+                            "name": "Chinese",
+                            "children": [
+                                {
+                                    "name": "Mandarin",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Jin",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Wu",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Gan",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Xiang",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Min",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Hakka",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Yue",
+                                    "children": [
+                                        {
+                                            "name": "Cantonese",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "Siyi",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Ping",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Huizhou",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tibeto-Burman languages",
+                    "children": [
+                        {
+                            "name": "Tibeto-Kanauri languages",
+                            "children": []
+                        },
+                        {
+                            "name": "Central Tibeto-Burman",
+                            "children": []
+                        },
+                        {
+                            "name": "Eastern Tibeto-Burman",
+                            "children": []
+                        }
+                    ]
+                },
+
+            ]
+        },
+        {
+            "name": "Afro-Asiatic languages",
+            "children": [
+                {
+                    "name": "Berber",
+                    "children": [
+                        {
+                            "name": "Northern",
+                            "children": [
+                                {
+                                    "name": "Kabyle",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Atlas",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Zanati",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Western",
+                            "children": [
+                                {
+                                    "name": "Zenaga",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Tetserret",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tuareg",
+                            "children": [
+                                {
+                                    "name": "Northern",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Southern",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Eastern",
+                            "children": [
+                                {
+                                    "name": "Siwi",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Nagosi",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Sokna",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Awjila",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Ghadames",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Numidian(extinct)",
+                            "children": []
+                        },
+                        {
+                            "name": "Guanche(extinct)",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Chadic",
+                    "children": []
+                },
+                {
+                    "name": "Cushitic",
+                    "children": []
+                },
+                {
+                    "name": "Egyptian (extinct)",
+                    "children": []
+                },
+                {
+                    "name": "Semitic",
+                    "children": [
+                        {
+                            "name": "East Semitic(extinct)",
+                            "children": []
+                        },
+                        {
+                            "name": "West Semitic",
+                            "children": [
+                                {
+                                    "name": "Central Semitic",
+                                    "children": [
+                                        {
+                                            "name": "Canaanite",
+                                            "children": [
+                                                        {
+                                                            "name": "Ammonite(extinct)",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Moabite(extinct)",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Edomite(extinct)",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Phoenician(extinct)",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Punic(extinct)",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Hebrew",
+                                                            "children": []
+                                                        }
+                                                    
+                                                
+                                            ]
+                                        },
+                                        {
+                                            "name": "Northwest Semtiic",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "Arabic",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "South Semitic",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Omotic",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Koreanic",
+            "children": [
+                {
+                    "name": "Korean",
+                    "children": []
+                },
+                {
+                    "name": "Jeju",
+                    "children": []
+                },
+                {
+                    "name": "Baekje(extinct)",
+                    "children": []
+                },
+                {
+                    "name": "Goguryeo(extinct)",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Kartvelian",
+            "children": [
+                {
+                    "name": "Svan",
+                    "children": []
+                },
+                {
+                    "name": "Georgian-Zan",
+                    "children": [
+                        {
+                            "name": "Georgian",
+                            "children": []
+                        },
+                        {
+                            "name": "Zan",
+                            "children": []
+                        }
+                    ]
+                }
             ]
         }
       ]
