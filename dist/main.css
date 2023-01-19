@@ -155,8 +155,7 @@ table {
     background-color: #f0f0f0;
     padding: 10px;
     text-align: right;
-    background-color: grey;
-    border-bottom: black;
+    background-color: rgb(83, 79, 79);
   }
   
   #banner a {
@@ -164,7 +163,6 @@ table {
     margin: 0 10px;
     text-decoration: none;
     color: darkblue;
-    background-color: grey;
   }
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
