@@ -7,11 +7,6 @@ const langFams = {
           "name": "Indo-European languages",
           "children": [
             {
-            "pageid": 983047,
-            "ns": 0,
-            "name": "List of Indo-European languages"
-            },
-            {
             "pageid": 18940550,
             "ns": 0,
             "name": "Albanian language",
@@ -1192,7 +1187,14 @@ const langFams = {
             },
             {
                 "name": "Italic languages",
-                "children": []
+                "children": [
+                    {
+                        "name": "Romance languages",
+                        "children": [
+                            
+                        ]
+                    }
+                ]
             },
             {
                 "pageid": 31273,
